@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<common>
+	</common>
+	<oneStep>
+		<hopeCountry>英国</hopeCountry>
+		<inlineYear>2017</inlineYear>
+		<currentGrade>本科大三</currentGrade>
+	</oneStep>
+	<threeStep>
+		<realname>自动化测试用户</realname>
+		<school>复旦大学</school>
+		<major>医药学</major>
+		<score>99.8</score>
+		<hopeMajor>商科</hopeMajor>
+		<hopeSubMajor>图书馆和信息管理</hopeSubMajor>
+	</threeStep>
+</data>

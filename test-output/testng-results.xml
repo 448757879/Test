@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="51offer" duration-ms="180977" started-at="2016-02-16T08:58:55Z" finished-at="2016-02-16T09:01:56Z">
+    <groups>
+      <group name="register">
+        <method signature="register.selectRegister()[pri:0, instance:com.testcase.register@166de01]" name="selectRegister" class="com.testcase.register"/>
+        <method signature="register.register(java.util.Map)[pri:0, instance:com.testcase.register@166de01]" name="register" class="com.testcase.register"/>
+        <method signature="register.finishRegister()[pri:0, instance:com.testcase.register@166de01]" name="finishRegister" class="com.testcase.register"/>
+      </group> <!-- register -->
+    </groups>
+    <test name="test" duration-ms="180977" started-at="2016-02-16T08:58:55Z" finished-at="2016-02-16T09:01:56Z">
+      <class name="com.testcase.register">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testcase.register@166de01]" name="beforeClass" is-config="true" duration-ms="36330" started-at="2016-02-16T16:58:55Z" finished-at="2016-02-16T16:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="selectRegister()[pri:0, instance:com.testcase.register@166de01]" name="selectRegister" duration-ms="756" started-at="2016-02-16T16:59:31Z" finished-at="2016-02-16T16:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRegister -->
+        <test-method status="PASS" signature="register(java.util.Map)[pri:0, instance:com.testcase.register@166de01]" name="register" duration-ms="54610" started-at="2016-02-16T16:59:32Z" data-provider="providerMethod" depends-on-methods="com.testcase.register.selectRegister" finished-at="2016-02-16T17:00:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=111111, mobile=13564102010}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method status="PASS" signature="finishRegister()[pri:0, instance:com.testcase.register@166de01]" name="finishRegister" duration-ms="21420" started-at="2016-02-16T17:00:27Z" depends-on-methods="com.testcase.register.register" finished-at="2016-02-16T17:00:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishRegister -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testcase.register@166de01]" name="afterClass" is-config="true" duration-ms="1032" started-at="2016-02-16T17:00:48Z" finished-at="2016-02-16T17:00:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testcase.register -->
+      <class name="com.testcase.login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testcase.login@14d8a08]" name="beforeSuite" is-config="true" duration-ms="5" started-at="2016-02-16T16:58:55Z" finished-at="2016-02-16T16:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testcase.register@166de01]" name="beforeSuite" is-config="true" duration-ms="136" started-at="2016-02-16T16:58:55Z" finished-at="2016-02-16T16:58:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testcase.login@14d8a08]" name="beforeClass" is-config="true" duration-ms="51610" started-at="2016-02-16T17:00:49Z" finished-at="2016-02-16T17:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="selectLogin()[pri:0, instance:com.testcase.login@14d8a08]" name="selectLogin" duration-ms="867" depends-on-groups="register.*" started-at="2016-02-16T17:01:41Z" finished-at="2016-02-16T17:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectLogin -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.testcase.login@14d8a08]" name="login" duration-ms="2457" depends-on-groups="register.*" started-at="2016-02-16T17:01:41Z" finished-at="2016-02-16T17:01:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="startThreeStep()[pri:0, instance:com.testcase.login@14d8a08]" name="startThreeStep" duration-ms="595" depends-on-groups="register.*" started-at="2016-02-16T17:01:44Z" finished-at="2016-02-16T17:01:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startThreeStep -->
+        <test-method status="PASS" signature="oneStep(java.util.Map)[pri:0, instance:com.testcase.login@14d8a08]" name="oneStep" duration-ms="2191" depends-on-groups="register.*" started-at="2016-02-16T17:01:45Z" data-provider="providerMethod" finished-at="2016-02-16T17:01:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{currentGrade=本科大三, hopeCountry=英国, inlineYear=2017}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneStep -->
+        <test-method status="PASS" signature="twoStep()[pri:0, instance:com.testcase.login@14d8a08]" name="twoStep" duration-ms="1290" depends-on-groups="register.*" started-at="2016-02-16T17:01:47Z" finished-at="2016-02-16T17:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- twoStep -->
+        <test-method status="PASS" signature="threeStep(java.util.Map)[pri:0, instance:com.testcase.login@14d8a08]" name="threeStep" duration-ms="5518" depends-on-groups="register.*" started-at="2016-02-16T17:01:48Z" data-provider="providerMethod" finished-at="2016-02-16T17:01:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeStep -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:com.testcase.login@14d8a08]" name="logout" duration-ms="1256" depends-on-groups="register.*" started-at="2016-02-16T17:01:54Z" finished-at="2016-02-16T17:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testcase.login@14d8a08]" name="afterClass" is-config="true" duration-ms="1022" started-at="2016-02-16T17:01:55Z" finished-at="2016-02-16T17:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testcase.login@14d8a08]" name="afterSuite" is-config="true" duration-ms="1" started-at="2016-02-16T17:01:56Z" finished-at="2016-02-16T17:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testcase.register@166de01]" name="afterSuite" is-config="true" duration-ms="0" started-at="2016-02-16T17:01:56Z" finished-at="2016-02-16T17:01:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testcase.login -->
+    </test> <!-- test -->
+  </suite> <!-- 51offer -->
+</testng-results>

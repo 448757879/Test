@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 指定class的执行 -->
+<suite name = "51offer" verbose="1" parallel="false" thread-count="1" configfailurepolicy='skip'>
+	<test name = "test" preserve-order="true">
+		<!-- <groups>  
+    		<run>  
+      			<include name="register"> </include> 
+      			<include name="login"> </include>   
+    		</run>  
+  		</groups> -->
+		<classes>
+			<class name="com.testcase.register">
+				<methods>
+					<include name = "selectRegister"> </include>
+					<include name = "register"> </include>
+					<include name = "finishRegister"> </include>
+					<!-- <include name = "logout"> </include> -->
+				</methods>
+			</class>
+			<class name="com.testcase.login">
+				<methods>
+					<include name = "selectLogin"> </include>
+					<include name = "login"> </include>
+					<include name = "startThreeStep"> </include>
+					<include name = "oneStep"> </include>
+					<include name = "twoStep"> </include>
+					<include name = "threeStep"> </include>
+					<include name = "logout"> </include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+	<listeners>
+        <listener class-name="com.test.testngListener" />
+    </listeners>
+</suite>

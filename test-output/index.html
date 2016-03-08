@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-51offer">
+              <span class="suite-name border-passed">51offer</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-51offer">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-51offer">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-51offer">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-51offer">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-51offer">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-51offer">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-51offer">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-51offer" class="hide-methods passed suite-51offer"> (hide)</a> <!-- hide-methods passed suite-51offer -->
+                      <a href="#" panel-name="suite-51offer" class="show-methods passed suite-51offer"> (show)</a> <!-- show-methods passed suite-51offer -->
+                    </span>
+                    <div class="method-list-content passed suite-51offer">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.register" hash-for-method="finishRegister">finishRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="oneStep({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017})">oneStep({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.register" hash-for-method="register({password=111111, mobile=13564102010})">register({password=111111, mobile=13564102010})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="selectLogin">selectLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.register" hash-for-method="selectRegister">selectRegister</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="startThreeStep">startThreeStep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="threeStep({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学})">threeStep({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学})</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-51offer" title="com.testcase.login" hash-for-method="twoStep">twoStep</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-51offer -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-51offer" class="panel 51offer">
+          <div class="suite-51offer-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.register</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="finishRegister">
+                  </a> <!-- finishRegister -->
+                  <span class="method-name">finishRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="register({password=111111, mobile=13564102010})">
+                  </a> <!-- register({password=111111, mobile=13564102010}) -->
+                  <span class="method-name">register</span>
+                  <span class="parameters">({password=111111, mobile=13564102010})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectRegister">
+                  </a> <!-- selectRegister -->
+                  <span class="method-name">selectRegister</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-51offer-class-passed -->
+          <div class="suite-51offer-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcase.login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="oneStep({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017})">
+                  </a> <!-- oneStep({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017}) -->
+                  <span class="method-name">oneStep</span>
+                  <span class="parameters">({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectLogin">
+                  </a> <!-- selectLogin -->
+                  <span class="method-name">selectLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startThreeStep">
+                  </a> <!-- startThreeStep -->
+                  <span class="method-name">startThreeStep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="threeStep({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学})">
+                  </a> <!-- threeStep({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学}) -->
+                  <span class="method-name">threeStep</span>
+                  <span class="parameters">({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="twoStep">
+                  </a> <!-- twoStep -->
+                  <span class="method-name">twoStep</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-51offer-class-passed -->
+        </div> <!-- panel 51offer -->
+        <div panel-name="test-xml-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;51offer&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.test.testngListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcase.register&quot;/&gt;
+      &lt;class name=&quot;com.testcase.login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- 51offer --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for 51offer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for 51offer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">register</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">finishRegister</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">register</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectRegister</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for 51offer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_51offer');
+function tableData_51offer() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'register')
+data.setCell(0, 2, 'com.testcase.register')
+data.setCell(0, 3, 54610);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'finishRegister')
+data.setCell(1, 2, 'com.testcase.register')
+data.setCell(1, 3, 21420);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'threeStep')
+data.setCell(2, 2, 'com.testcase.login')
+data.setCell(2, 3, 5518);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'login')
+data.setCell(3, 2, 'com.testcase.login')
+data.setCell(3, 3, 2457);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'oneStep')
+data.setCell(4, 2, 'com.testcase.login')
+data.setCell(4, 3, 2191);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'twoStep')
+data.setCell(5, 2, 'com.testcase.login')
+data.setCell(5, 3, 1290);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'logout')
+data.setCell(6, 2, 'com.testcase.login')
+data.setCell(6, 3, 1256);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'selectLogin')
+data.setCell(7, 2, 'com.testcase.login')
+data.setCell(7, 3, 867);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'selectRegister')
+data.setCell(8, 2, 'com.testcase.register')
+data.setCell(8, 3, 756);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'startThreeStep')
+data.setCell(9, 2, 'com.testcase.login')
+data.setCell(9, 3, 595);
+window.suiteTableData['51offer']= { tableData: data, tableDiv: 'times-div-51offer'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-51offer">
+              </div> <!-- times-div-51offer -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for 51offer</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-51offer" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.login</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.register</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">5 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">145 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectRegister</span>
+                <span class="method-start">36478 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">register({password=111111, mobile=13564102010})</span>
+                <span class="method-start">37237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">finishRegister</span>
+                <span class="method-start">91847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">113267 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">114300 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">selectLogin</span>
+                <span class="method-start">165911 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">166779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">startThreeStep</span>
+                <span class="method-start">169237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">oneStep({currentGrade=本科大三, hopeCountry=英国, inlineYear=2017})</span>
+                <span class="method-start">169837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">twoStep</span>
+                <span class="method-start">172028 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">threeStep({school=复旦大学, hopeMajor=商科, score=99.8, realname=自动化测试用户, hopeSubMajor=图书馆和信息管理, major=医药学})</span>
+                <span class="method-start">173322 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">178840 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">180096 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">181153 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcase.register</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">181154 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

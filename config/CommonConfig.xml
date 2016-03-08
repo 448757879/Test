@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<brower>
+		<type>firefox</type>
+		<firefoxInstallPath>
+			E:/Program Files (x86)/Mozilla Firefox/firefox.exe
+		</firefoxInstallPath>
+		<chromeInstallPath>
+			C:/Users/acmilan/AppData/Local/Google/Chrome/Application/chrome.exe
+		</chromeInstallPath>
+		<remote>
+			<brower>
+				firefox
+			</brower>
+			<remoteUrl>
+				http://192.168.32.247:4446/wd/hub
+			</remoteUrl>
+			<remoteBrowerInstallPath>
+				D:\\firefox\\firefox.exe
+			</remoteBrowerInstallPath>
+		</remote>
+	</brower>
+	<ocrInstallPath>D:\\Program Files (x86)\\Tesseract-OCR</ocrInstallPath>
+	<url>http://www.51offer.com</url>
+	<adminUrl>http://admin.51offer.com</adminUrl>
+	<MobileValidatedCodeUrl>http://182.92.175.167:7017/sms/query.html</MobileValidatedCodeUrl>
+	<registerMobile>13564102010</registerMobile>
+	<DeleteExistUserUrl>http://b.51offer.com/channelLogin.html</DeleteExistUserUrl>
+	<PageLoadWaitTime>600</PageLoadWaitTime>	
+	<waitTime>10</waitTime>
+</config>

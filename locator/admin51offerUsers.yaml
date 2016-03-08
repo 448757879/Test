@@ -1,0 +1,20 @@
+#牛逼测试
+superTester:
+  username: "CS_001"
+  password: "123456"
+#DC组长
+dcLeader:
+  username: "ceshi_dc01"
+  password: "12341234"
+#DC顾问
+dcConsultant:
+  username: "ceshi_dc02"
+  password: "12341234"
+#服务组长
+serviceLeader:
+  username: "ceshi_fuwu01"
+  password: "12341234"
+#服务顾问
+serviceConsultant:
+  username: "ceshi_fuwu02"
+  password: "12341234"

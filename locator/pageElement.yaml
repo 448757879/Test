@@ -1,0 +1,329 @@
+#******************************51offer前台******************************
+#########51offer前台主页#########
+#【登录】按钮
+loginBtn:
+  type: classname
+  value: "nav-login-btn"
+#【注册】按钮
+registerBtn:
+  type: classname
+  value: "nav-register-btn"
+#登录后用户下拉框
+userWrap:
+  type: xpath
+  value: "html/body/div[1]/div[1]/div/div[3]/div[3]/ul/li[3]"
+#用户名显示元素
+registerUsername:
+  type: classname
+  value: "u-name"
+#【退出】按钮
+logout:
+  type: classname
+  value: "logout-btn"
+#【免费获取留学方案】按钮（登录状态）
+homePageStartThreeStep:
+  type: xpath
+  value: ".//*[@class='form-group']/a"
+
+#########51offer前台登录页######### 
+#【账号登录】按钮
+userAccount:
+  type: classname
+  value: "static"
+#用户名输入框
+username:
+  type: name
+  value: "username"
+#密码输入框
+password:
+  type: name
+  value: "password"
+#【确认登录】按钮
+submitLogin:
+  type: xpath
+  value: ".//*[@id='loginForm']/div[3]/a[2]"
+
+#########51offer前台注册页#########
+#手机号输入框
+mobile:
+  type: id
+  value: "mobile"
+#密码输入框
+registerPassword:
+  type: id
+  value: "password"
+#图片验证码输入框
+validatedCode:
+  type: id
+  value: "image_code"
+#验证码图片  
+validatedPic:
+  type: id
+  value: "image"  
+#【换一张】按钮  
+changeValidatedPic:
+  type: id
+  value: "captchaChange"  
+#短信验证码输入框  
+mobileValidatedCode:
+  type: id
+  value: "message"
+#【获取短信验证码】按钮  
+getMobileValidatedCode:
+  type: id
+  value: "message_btn"
+#【确认注册】按钮
+submitRegister:
+  type: id
+  value: "register_btn"
+#手机号已注册提醒
+errMobileExist:
+  type: xpath
+  value: ".//*[@id='frm']/div[1]/div[3]"
+#图片验证码错误
+errValidatedCode:
+  type: xpath
+  value: ".//*[@id='frm']/div[3]/div[3]"
+#短信验证码失效错误
+invalidMobileValidatedCode:
+  type: xpath
+  value: ".//*[@id='frm']/div[4]/div[3]"
+  
+#########51offer前台注册完成后的开始DIY页面######### 
+#【进入我的留学申请】按钮
+startDiyPageEnterBtn:
+  type: classname
+  value: "init_enter_txt" 
+
+#########51offer前台第一滑页面######### 
+#想去的国家的单选框
+oneStepPageHopeCountryRadio:
+  type: classname
+  value: "form-radio"
+#计划出国时间的单选框
+oneStepPageInlineYearRadio:
+  type: classname
+  value: "form-radio"
+#目前就读年纪的下拉框
+oneStepPageCurrentGradeDropdown:
+  type: classname
+  value: "dropdown-toggle"
+#目前就读年纪的下拉选项
+oneStepPageCurrentGradeDropdownList:
+  type: xpath
+  value: ".//*[@id='stepsForm']/div/div[3]/div[1]/ul/li/a"
+#【查看留学方案】按钮
+oneStepPageSubmitBtn:
+  type: id
+  value: "J_submit"
+#########51offer前台第二滑页面#########
+#留学方案的多选框
+twoStepPageApplyCheckbox:
+  type: xpath
+  value: ".//*[@class='study-mod']/div/label"
+#留学方案的多选框文案
+twoStepPageApplyCheckboxText:
+  type: xpath
+  value: ".//*[@class='study-mod']/div/label/span/b"
+#【继续制定我的选校方案】按钮
+twoStepPageSubmitBtn:
+  type: id
+  value: "J_submit"
+#########51offer前台第三滑页面#########
+#姓名输入框
+threeStepPageNameInput:
+  type: cssSelector
+  value: "input[class='input-text must']"
+#最近就读学校输入框
+threeStepPageSchoolInput:
+  type: id
+  value: "J_attend"
+#就读专业下拉框
+threeStepPageMajorDropdown:
+  type: id
+  value: "J_GradeMajor"
+#就读专业下拉选项
+threeStepPageMajorDropdownList:
+  type: xpath
+  value: ".//*[@id='J_majorField']/ul/li/a"
+#期中期末考试平均分输入框
+threeStepPageScoreInput:
+  type: id
+  value: "J_meanGrade"
+#希望就读专业大类下拉框
+threeStepPageHopeMajorDropdown:
+  type: id
+  value: "J_genera"
+#希望就读专业小类下拉框
+threeStepPageHopeSubMajorDropdown:
+  type: id
+  value: "J_subclass"
+#希望就读专业大类下拉选项
+threeStepPageHopeMajorDropdownList:
+  type: xpath
+  value: ".//*[@id='J_selGenera']/li/a"
+#希望就读专业小类下拉选项
+threeStepPageHopeSubMajorDropdownList:
+  type: xpath
+  value: ".//*[@id='J_selSubclass']/li/a"
+#希望就读专业小类下拉选项第一项
+threeStepPageHopeSubMajorDropdown1st:
+  type: xpath
+  value: ".//*[@id='J_selSubclass']/li[1]/a"
+#【立即查看我的选校方案】按钮
+threeStepPageSubmitBtn:
+  type: id
+  value: "J_submit"
+#########51offer前台三滑结束页面#########
+#【查看选校结果】按钮
+threeStepFinishSubmitBtn:
+  type: classname
+  value: "pie-check-result"
+#******************************短信验证码查询页面******************************  
+#########短信验证码查询页面#########
+#手机输入框
+msgSearchmobileInput:
+  type: name
+  value: "mobile"
+#【搜索】按钮
+msgSearchBtn:
+  type: xpath
+  value: ".//*[@id='mobileform']/input[2]"
+#最新一条短信
+msgSearchLastMessageText:
+  type: xpath
+  value: ".//*[@id='mobileform']/table/tbody/tr[2]/td[2]"
+#手机输入框提交
+msgSearchmobileForm:
+  type: xpath
+  value: ".//*[@id='syn_date']/div/form"
+
+#******************************51offer后台****************************** 
+#########51offer后台登录页#########
+#用户名输入框
+adminHomeUsernameInput:
+  type: id
+  value: "userId"
+#密码输入框
+adminHomePasswordInput:
+  type: id
+  value: "pwd"
+#【登录】按钮
+adminHomeLoginBtn:
+  type: id
+  value: "btnLogin"
+
+#########51offer后台菜单入口页#########
+#页面左侧菜单的iframe
+adminLeftMenuIframe:
+  type: id
+  value: "left-frame"
+#注册用户入口按钮
+adminRegisterUsersMenuBtn:
+  type: xpath
+  value: "html/body/div/div/ul/li[1]/ul/li[2]/a"
+  
+#########51offer注册用户列表页#########
+#右侧iframe
+adminRegisterUserListRightIframe:
+  type: id
+  value: "right-frame"
+#查询的下拉框
+adminRegisterUserListSearchSelect :
+  type: name
+  value: "search_keyword_type"
+#搜索的输入框
+adminRegisterUserListSearchInput :
+  type: xpath
+  value: ".//*[@id='frm1']/input[4]"
+#【搜索】按钮
+adminRegisterUserListSearchBtn :
+  type: xpath
+  value: ".//*[@id='frm1']/button"
+#注册用户列表页的第一条数据的uid显示元素
+adminRegisterUserList1stUid :
+  type: xpath
+  value: ".//*[@id='frm2']/div[1]/table/tbody/tr[1]/td[2]"
+#注册用户列表页的第一条数据的用户名显示元素
+adminRegisterUserList1stUsername :
+  type: xpath
+  value: ".//*[@id='frm2']/div[1]/table/tbody/tr/td[4]"
+#注册用户列表页的第一条数据的类型设置按钮
+adminRegisterUserList1stTypeSetBtn :
+  type: xpath
+  value: ".//*[@id='userType%s']"
+#用户类型设置弹框的iframe
+adminRegisterUserListTypeSetIframe :
+  type: xpath
+  value: ".//*[@id='fancybox-content']/iframe"
+#用户类型设置弹窗：【有效】
+adminRegisterUserListTypeSetValid :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[1]/span"
+#用户类型设置弹窗：【跟进中】
+adminRegisterUserListTypeSetFollowing :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[2]/span"
+#用户类型设置弹窗：【暂缓】
+adminRegisterUserListTypeSetDefer :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[3]/span"
+#用户类型设置弹窗：【不合适】
+adminRegisterUserListTypeSetUnapt :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[4]/span"
+#用户类型设置弹窗：【无效】
+adminRegisterUserListTypeSetInvalid :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[5]/span"
+#用户类型设置弹窗：【测试数据】
+adminRegisterUserListTypeSetTest :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[6]/span"
+#用户类型设置弹窗：【错误数据】
+adminRegisterUserListTypeSetWrongData :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[7]/span"
+#用户类型设置弹窗：【联系不上】
+adminRegisterUserListTypeSetContactFail :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[1]/div[1]/div[8]/span"
+#用户类型设置弹窗的【确认】按钮
+adminRegisterUserListTypeSetCCommitBtn :
+  type: xpath
+  value: ".//*[@id='msgForm']/div/div[2]/a[2]"
+
+#******************************51offer后台#****************************** 
+#########B端后台登录页#########
+#B端后台登录页的用户名输入框
+b51offerLoginPageUsernameInput :
+  type: id
+  value: "userId"
+#B端后台登录页的密码输入框
+b51offerLoginPagePasswordInput :
+  type: id
+  value: "pwd"
+#B端后台登录页的【登录】按钮
+b51offerLoginPageLoginBtn :
+  type: id
+  value: "btnLogin"
+
+#########B端后台首页#########
+#左侧菜单里的【白名单】按钮
+b51offerHomePageWhitelistLink :
+  type: xpath
+  value: ".//*[@id='system']/ul/li[3]/a"
+
+#########B端后台白名单页#########
+#用户名输入框
+b51offerWhitelistPageUsernameInput :
+  type: id
+  value: "wusername"
+#手机号输入框
+b51offerWhitelistPageMobileInput :
+  type: id
+  value: "wmobile"
+#【删除】按钮
+b51offerWhitelistPageDeleteBtn :
+  type: id
+  value: "wupdateid"

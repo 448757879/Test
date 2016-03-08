@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [51offer]">
+  <listeners>
+    <listener class-name="com.test.testngListener"/>
+  </listeners>
+  <test name="test(failed)">
+    <classes>
+      <class name="com.testcase.login">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="threeStep" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.testcase.login -->
+      <class name="com.testcase.register">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="register"/>
+          <include name="selectRegister"/>
+          <include name="beforeSuite"/>
+          <include name="finishRegister"/>
+        </methods>
+      </class> <!-- com.testcase.register -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [51offer] -->

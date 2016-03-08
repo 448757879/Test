@@ -1,0 +1,12 @@
+¡¾Success¡¿¡¾selectRegister¡¿ Start
+¡¾failure¡¿¡¾selectRegister¡¿TestCase failure
+¡¾failure¡¿¡¾register¡¿TestCase Skipped
+¡¾failure¡¿¡¾finishRegister¡¿TestCase Skipped
+¡¾failure¡¿¡¾selectLogin¡¿TestCase Skipped
+¡¾failure¡¿¡¾login¡¿TestCase Skipped
+¡¾failure¡¿¡¾startThreeStep¡¿TestCase Skipped
+¡¾failure¡¿¡¾oneStep¡¿TestCase Skipped
+¡¾failure¡¿¡¾twoStep¡¿TestCase Skipped
+¡¾failure¡¿¡¾threeStep¡¿TestCase Skipped
+¡¾failure¡¿¡¾logout¡¿TestCase Skipped
+¡¾Success¡¿test finish

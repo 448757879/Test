@@ -1,0 +1,20 @@
+【Success】【selectRegister】 Start
+【Success】首页点击【注册】按钮
+【Success】【selectRegister】TestCase Success
+【Success】【register】 Start
+【Success】输入手机号：13564102010
+【Success】输入密码：111111
+【Success】输入图片验证码：K3UC
+
+
+【Success】点击【获取短信验证码】
+【Success】验证注册信息是否正确
+【Success】登录线上短信查询页面
+【Success】输入手机号：13564102010
+【Success】点击【查询】
+【Success】输入短信验证码：6895
+【Success】点击【确认注册】
+【Success】点击【确认注册】
+【failure】【register】TestCase failure
+【failure】【register】TestCase failure
+【Success】test finish
